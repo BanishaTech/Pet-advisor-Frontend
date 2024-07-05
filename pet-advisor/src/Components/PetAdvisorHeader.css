@@ -1,0 +1,41 @@
+.petAdvisorHeaderContainer {
+    background-color: #e0f5f1;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.logoText{
+    font-size: 22px;
+}
+
+.logo{
+    height: 80%;
+    width: fit-content;
+    align-self: center;
+    margin: 10px;
+   
+}
+
+.logoContainer{
+    align-items: center;
+    display: flex;
+ 
+}
+
+@media (max-width: 414px){
+    .petAdvisorHeaderContainer{
+        height: 60px;
+    }
+    .logo{
+        height: 90%;
+        margin: 10px;
+    }
+    .logoText{
+        font-size: 16px;
+    }
+
+}
+
+
